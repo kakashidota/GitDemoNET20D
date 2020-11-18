@@ -7,7 +7,7 @@ namespace GitDemoNET20D
     {
         static void Main(string[] args)
         {
-            
+            /*
             //CTRL + k, CTRL + d för att fina till koden
             //Ett sätt
             int[] arrayOfNumbers = new int[5];
@@ -35,7 +35,24 @@ namespace GitDemoNET20D
             }
             */
 
-            Console.WriteLine(arrayOfNumbers.Contains(93));
+            // Console.WriteLine(arrayOfNumbers.Contains(93));
+
+
+            //Övning 2
+            //Ett sätt
+            int[] firstOne = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            // int[] secondOne = new int[10] { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+
+            //    Console.WriteLine(string.Join(',', firstOne));
+            //  Console.WriteLine(string.Join(',', secondOne));
+
+            //Ett annat sätt
+            Console.WriteLine(string.Join(',', firstOne));
+            Console.WriteLine(string.Join(',', firstOne.Reverse()));
+
+
+
+
 
         }
     }
